@@ -95,7 +95,7 @@ const getDataFirebase = async() => {
     
 
 
-   
+    
 }
 
 
