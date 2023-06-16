@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="/script.js" defer="true" type="module"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body class="h-screen w-screen flex justify-center items-center bg-red-500">
+        <div  class="flex flex-wrap text-center justify-center h-1/2 w-1/2 items-center bg-cover bg-[url('https://th.bing.com/th/id/OIP.qhbCgTgtDVUsmiVaB9WSmgHaEK?pid=ImgDet&rs=1')]  border-blue-500 ">
+            <div id="connexion" class="ms-10 h-1/3 w-1/3 text-center flex flex-wrap justify-center items-center grid grid-cols-1 grid-rows-3 border-2 border-red-500">
+                <input id="username" type="username" class="bg-white">
+                <input id="password" type="password" class="bg-white">
+                <button type="submit" onclick="signInFirebase(username,password)" class="bg-blue-500 text-white">connexion</button>
+            </div>
+            <div id="connexion" class="ms-10 h-1/3 w-1/3 text-center flex flex-wrap justify-center items-center grid grid-cols-1 grid-rows-3 border-2 border-red-500">
+                <input id="username" type="username" class="bg-white">
+                <input id="email" type="email" class="bg-white">
+                <input id="password" type="password" class="bg-white">
+                <button type="submit" onclick="signInFirebase(username,password)" class="bg-blue-500 text-white">inscription</button>
+            </div>
+           
+            </div>
+      
+</body>
+</html>
